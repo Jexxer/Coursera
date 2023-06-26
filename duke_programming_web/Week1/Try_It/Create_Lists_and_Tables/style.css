@@ -15,18 +15,3 @@
   cursor: pointer;
   box-shadow: 5px 5px 10px 2px;
 }
-
-td,
-tr {
-  border: 1px solid black;
-  padding: 1rem;
-}
-
-th {
-  border: 1px solid black;
-}
-
-#interest-container {
-  border: 1rem dotted rgb(201,72,64);
-  padding: 1rem;
-}

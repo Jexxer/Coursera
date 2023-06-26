@@ -1,23 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <script src="index.js"></script>
-  <title>My Interests</title>
-</head>
-<body>
-  <div class="interest-container">
-    <h1>Below are my Interests</h1>
-    <div class="list-container">
-      <ul onclick="onListItemClick(event)">
-        <li class="list-item">Gym</li>
-        <li class="list-item">Learning</li>
-        <li class="list-item">Programming</li>
-        <li class="list-item">Being better everyday</li>
-      </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+    <title>My Interests</title>
+  </head>
+  <body>
+    <div id="interest-container">
+      <h1>Below are my Interests</h1>
+      <div class="list-container">
+        <ul onclick="onListItemClick(event)">
+          <li class="list-item">
+            <a href="https://www.google.com" target="_blank">Gym</a>
+          </li>
+          <li class="list-item">Learning</li>
+          <li class="list-item">Programming</li>
+          <li class="list-item">Being better everyday</li>
+        </ul>
+      </div>
+      <div class="favorite-foods-list">
+        <h1 class="fav-food-header">Some of my favorite foods are...</h1>
+        <ol>
+          <li>
+            Chicken
+            <ul>
+              <li>Wings</li>
+              <li>Chicken noodle soup</li>
+              <li>Chicken alfredo</li>
+            </ul>
+          </li>
+          <li>Rice</li>
+          <li>Pizza</li>
+          <li>Lasagna</li>
+          <li>Chocolate</li>
+        </ol>
+      </div>
+      <div class="people-id-like-to-meet-list">
+        <ul>
+          <li>Elon Musk</li>
+          <li>Bill Gates</li>
+          <li>Joe Rogan</li>
+          <li>Chris Bumstead</li>
+        </ul>
+      </div>
+      <div class="useful-resources-table">
+        <table>
+          <tr>
+            <th>link</th>
+            <th>info</th>
+          </tr>
+          <tr>
+            <td><a href="https://www.coursera.org">Coursera.org</a></td>
+            <td>
+              A learning website to help you expand your skills in business and
+              technology.
+            </td>
+          </tr>
+          <tr>
+            <td><a href="https://www.codepen.io">Codepen.io</a></td>
+            <td>
+              A code playground site that allows you to write HTML, CSS, and
+              JavaScript and test your code in a encapsulated environment.
+            </td>
+          </tr>
+          <tr>
+            <td><a href="https://www.leetcode.com">Leetcode.com</a></td>
+            <td>
+              A site to test your skills in data structures and algorithms.
+              Challenge your skills by taking on some of the hardest interview
+              questions being asked today.
+            </td>
+          </tr>
+        </table>
+      </div>
+      <h1>Below is a picture of me!</h1>
+      <img
+        src="./headshot.jpg"
+        alt="Jesse Watson Headshot"
+        width="200px"
+        height="auto"
+      />
     </div>
-  </div>
-</body>
+  </body>
 </html>
