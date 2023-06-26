@@ -1,0 +1,17 @@
+.list-item {
+  background-color: white;
+  color: darkslategray;
+  padding: 1rem;
+  border: 2px solid black;
+  width: 12rem;
+  border-radius: 1rem;
+  margin-bottom: 4px;
+  box-shadow: 5px 5px 10px 2px;
+}
+
+.list-item:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px 2px;
+}
